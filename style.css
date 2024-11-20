@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+/* header */
+.nav{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.content{
+    
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(22, 153, 77);
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+/* content */
+.main{
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin: 2px;
+   
+    
+}
+.content-in{
+    border: 5px solid rgb(22, 153, 77);
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    padding: 120px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.workout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+.content-ins{
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(22, 153, 77);
+    border-radius: 10px;
+    margin-right: 1px;
+    padding: 20px;
+    box-sizing: border-box;
+    color:white;
+    
+}
+.Visit{
+    text-decoration: double;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+.review{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    
+    display: block;
+    box-sizing: border-box;
+    width: 33.33%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 0px 1px;
+    
+}
+.review-content{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 5px solid rgb(22, 153, 77);
+    border-radius: 10px;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.content-footer{
+    background-color: rgb(22, 153, 77);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border: 5px solid rgb(22, 153, 77);
+}
